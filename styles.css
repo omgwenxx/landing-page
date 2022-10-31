@@ -1,0 +1,149 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.footer {
+    display: flex;
+    color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    font-size: 12px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 400;
+    color: #F9faf8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    gap: 16px;
+    font-weight: 300;
+}
+
+button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 6px;
+    padding: 6px 24px;
+    border: none;
+}
+
+h1 {
+    color: #F9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+}
+
+h3 {
+    color: #F9faf8;
+    margin: 0;
+    padding: 0;
+}
+
+#card1 {
+    background-color: #1f2937;
+    padding: 30px;
+    color: #e5e7eb;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    gap: 32px;
+}
+
+#card2 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 80px;
+}
+
+.items-row {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 24px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item p {
+    text-align: center;
+}
+
+#card3 {
+    background-color: #e5e7eb;
+    padding: 68px 80px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-weight: 800;
+}
+
+#card4 {
+    padding: 48px 80px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    border-radius: 6px;
+    color: #e5e7eb;
+    background-color: #3882F6;
+}
+
+.box p {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.box button {
+    border: 1px solid white;
+}
